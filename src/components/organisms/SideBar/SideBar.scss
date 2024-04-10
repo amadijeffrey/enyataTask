@@ -1,0 +1,30 @@
+.sideBar{
+    background-color: #031434;
+    padding: 32px 16px  32px 24px;
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    > .firstDiv{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        > img{
+           width: 107px;
+           height: 46px;
+           margin: 0px auto;
+        }
+        > a{
+            text-decoration: none;
+        }
+    }
+    > .secondDiv{
+        display: flex;
+        flex-direction: column;
+        row-gap: 33px;
+        > a{
+            text-decoration: none;
+        }
+    }
+}

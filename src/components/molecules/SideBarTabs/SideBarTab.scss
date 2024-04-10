@@ -1,0 +1,13 @@
+.sideBarTab{
+    height:48px;
+    width: 100%;
+    padding: 15px 32px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.active > .sideBarTab {
+ background-color: #0a74dc;
+
+}

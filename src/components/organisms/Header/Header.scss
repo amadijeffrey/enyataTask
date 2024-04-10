@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    padding: 15px 40px;
+    height: 64px;
+    justify-content: space-between;
+    box-shadow: 0px 2px 6px 0px #e5e5e54d;
+    > div{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        column-gap: 5px;
+        cursor: pointer;
+        > img{
+            width:9px;
+            height: 15px;
+        }
+    }
+    > .rightDiv {
+        display: flex;
+        align-items: center;
+        column-gap: 32px;
+        > img:first-child{
+            width:24px;
+            height: 24px;
+        }
+        > img:last-child{
+            width:24px;
+            height: 24px;
+        }
+    }
+}

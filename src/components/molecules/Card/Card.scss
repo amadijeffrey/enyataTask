@@ -1,0 +1,14 @@
+.card {
+    padding: 23px 18px;
+    display: flex;
+    width:20%;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    row-gap: 22px;
+    > .topDiv {
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+}

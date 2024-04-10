@@ -1,0 +1,33 @@
+.loginForm {
+  width: 467px;
+  border: 1px solid #a4a7b74d;
+  border-radius: 8px;
+  padding: 36px 66px 38px 66px;
+  p:first-child {
+    margin-bottom: 8px;
+  }
+  p:nth-child(2) {
+    margin-bottom: 54px;
+  }
+  p:last-child{
+    text-align: center;
+    margin-top: 96px;
+    > a{
+      margin-right: 5px;
+    }
+    a:last-child{
+      margin-left: 5px;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+  > a {
+    text-align: center;
+    display: block;
+    margin-top: 24px;
+    text-decoration: none;
+  }
+}
